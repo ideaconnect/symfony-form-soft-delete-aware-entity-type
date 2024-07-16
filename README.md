@@ -2,6 +2,7 @@ Symfony Form SoftDeleteAware EntityType
 =======================================
 
 ![Tests status](https://github.com/ideaconnect/symfony-form-soft-delete-aware-entity-type/actions/workflows/run-tests.yml/badge.svg "Tests status")
+![Code Coverate](https://coveralls.io/repos/github/ideaconnect/symfony-form-soft-delete-aware-entity-type/badge.svg?branch=main "Code coverage status")
 
 The missing link between `softdeleteable` from [doctrine/extensions](https://github.com/doctrine-extensions/DoctrineExtensions) and Symfony Form component.
 
