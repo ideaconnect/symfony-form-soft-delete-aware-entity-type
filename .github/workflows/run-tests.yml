@@ -23,3 +23,10 @@ jobs:
     - name: Stop containers
       if: always()
       run: cd tests/functional && docker-compose -f down
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@v2
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        file: report/coverage.xml
+        format: clover
