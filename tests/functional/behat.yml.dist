@@ -1,0 +1,10 @@
+default:
+    suites:
+        default:
+            contexts:
+                - App\Tests\Behat\FormContext
+
+    extensions:
+        FriendsOfBehat\SymfonyExtension:
+            kernel:
+                path: tests/bootstrap.php
