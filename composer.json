@@ -27,10 +27,10 @@
     "minimum-stability": "stable",
     "require": {
         "gedmo/doctrine-extensions": "^3",
-        "symfony/doctrine-bridge": "^6",
-        "symfony/property-access": "^6",
-        "symfony/options-resolver": "^6",
-        "symfony/form": "^6",
+        "symfony/doctrine-bridge": "^6 || ^7",
+        "symfony/property-access": "^6 || ^7",
+        "symfony/options-resolver": "^6 || ^7",
+        "symfony/form": "^6 || ^7",
         "doctrine/orm": "^2|^3"
     },
     "require-dev": {
