@@ -20,8 +20,9 @@ class DummyOptionsResolver extends OptionsResolver
         return $this->testNormalizers;
     }
 
-    public function setNormalizer(string $option, \Closure $normalizer)
+    public function setNormalizer(string $option, \Closure $normalizer): static
     {
         $this->testNormalizers[$option] = [$normalizer];
+        return $this;
     }
 }
